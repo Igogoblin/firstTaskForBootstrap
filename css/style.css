@@ -1,0 +1,66 @@
+:root {
+  --color: #049edf;
+}
+
+body {
+  background: -moz-radial-gradient(
+    center,
+    ellipse cover,
+    #000000 0%,
+    #2042c9 0%,
+    #000000 100%,
+    #1e5799 100%
+  ); /* FF3.6-15 */
+  background: -webkit-radial-gradient(
+    center,
+    ellipse cover,
+    #000000 0%,
+    #2042c9 0%,
+    #000000 100%,
+    #1e5799 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: radial-gradient(
+    ellipse at center,
+    #000000 0%,
+    #2042c9 0%,
+    #000000 100%,
+    #1e5799 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#1e5799',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  background-repeat: no-repeat;
+}
+
+span {
+  display: block;
+  height: 38px;
+  /* margin: 0;
+  padding: 0; */
+  /* width: 38px; */
+}
+img {
+  max-height: 38px;
+  max-width: 38px;
+  color: var(--color);
+  /* padding: 0;
+  margin: 0; */
+}
+/*
+.firstbc {
+  background-image: url(/img/avatar.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: var(--color);
+} */
+.container {
+  background-color: var(--color);
+  padding: 20px 40px;
+  width: 60%;
+  margin: 70px auto;
+}
+.reg {
+  background-color: white;
+  color: grey;
+}
+.input-group-text {
+  padding: 0;
+}
