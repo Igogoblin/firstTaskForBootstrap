@@ -54,7 +54,7 @@ img {
 .container {
   background-color: var(--color);
   padding: 20px 40px;
-  width: 60%;
+  /* width: 60%; */
   margin: 70px auto;
 }
 .reg {
